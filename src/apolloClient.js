@@ -15,7 +15,6 @@ const defaultOptions = {
 }
 
 const httpLink = new HttpLink({
-  // You should use an absolute URL here
   uri: 'http://sample.bmaster.kro.kr:8080/graphql',
 })
 
